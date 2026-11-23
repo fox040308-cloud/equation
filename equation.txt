@@ -1,0 +1,31 @@
+Debut
+    Saisie de a, b, c
+    Calculer d = b^2 - 4*a*c
+    Si d > 0 Alors
+        ....
+    Sinon Si d < 0 Alors
+        ....
+    Sinon (d = 0)
+        ....
+    FinSi
+    Afficher les solutions
+Fin
+
+
+Début
+    Saisir a, b, c
+    Calculer d = b^2 - 4*a*c
+
+    Si d > 0 Alors
+        x1 = (-b - √d) / (2*a)
+        x2 = (-b + √d) / (2*a)
+        Afficher "Deux solutions : ", x1, x2
+
+    Sinon Si d < 0 Alors
+        Afficher "Aucune solution réelle"
+
+    Sinon (d = 0)
+        x = -b / (2*a)
+        Afficher "Une solution : ", x
+    FinSi
+Fin
